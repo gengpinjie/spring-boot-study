@@ -1,0 +1,21 @@
+server:
+  #端口号
+  port: 8080
+spring:
+  #应用程序名称
+  application:
+    name: spring-boot-mybatis
+  #数据源配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://49.4.27.97:3306/wages_accounts
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: qing123456!
+#配置Mybatis映射文件路径
+mybatis:
+  #加载com/itheima/mapper/xml/StaffMapper.xml
+  #mapper-locations: classpath:com/itheima/**/xml/*Mapper.xml
+  #加载mapper/StaffMapper.xml
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.itheima.domain

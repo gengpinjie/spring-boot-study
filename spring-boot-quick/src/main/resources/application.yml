@@ -1,0 +1,42 @@
+#应用程序端口号
+server:
+  port: 8081
+spring:
+  application:
+    #应用程序名称
+    name: spring-boot-quick
+#普通属性
+name: zhangsan
+#对象属性
+person:
+  name: liuyifei
+  age: 20
+  habits:
+    - sa
+    - sb
+    - sc
+#行内对象属性
+#person: {name: zhangsan, age: 20}
+
+#集合
+city:
+  - beijing
+  - shanghai
+  - chongqin
+  - shenzhen
+#行内集合
+#city: [beijing, shanghai, chongqin, shenzhen]
+
+#集合
+students:
+  - name: zhangsan
+    age: 20
+  - name: lisi
+      age: 21
+#行内集合
+#students: [{name: zhangsan, age: 20}, {name: lisi, age: 21}]
+
+#Map集合
+map:
+  key1: value1
+  key2: value2

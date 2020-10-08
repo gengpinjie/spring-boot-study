@@ -1,0 +1,4 @@
+com\itheima\config\PersonProperties.class
+com\itheima\Application.class
+META-INF\spring-configuration-metadata.json
+com\itheima\controller\IndexController.class

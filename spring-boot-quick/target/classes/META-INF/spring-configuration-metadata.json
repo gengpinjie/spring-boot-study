@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.itheima.config.PersonProperties",
+      "sourceType": "com.itheima.config.PersonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.itheima.config.PersonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.habits",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.itheima.config.PersonProperties"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.itheima.config.PersonProperties"
+    }
+  ],
+  "hints": []
+}
