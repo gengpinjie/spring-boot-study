@@ -38,7 +38,7 @@ public class RedisTest {
             System.out.println("redis中不存在数据,从数据库查询!");
         } else {
             //4、将数据在控制台打印
-            System.out.println(value);
+            System.out.println("客户编码:" + value);
         }
     }
 
