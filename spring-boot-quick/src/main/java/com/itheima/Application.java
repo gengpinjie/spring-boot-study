@@ -3,7 +3,7 @@ package com.itheima;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// 生命该类是一个SpringBoot引导类
+// 声明该类是一个SpringBoot引导类
 @SpringBootApplication
 public class Application {
 
